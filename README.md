@@ -1,4 +1,4 @@
-# neonTeh
+# NeonTech
 
 hello and welcome to our neonTech web site.
 

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono|Roboto&display=swap');
+
 /* css reset  */
 
 * {
@@ -15,11 +17,27 @@
 
 }
 
+.btn-light {
+    display: inline-block;
+    text-decoration: none;
+    background-color: white;
+    color: rgb(19, 18, 18);
+    padding: .7rem 2rem;
+    border: none;
+    border-radius: .5rem;
+}
+
+.btn-light:hover {
+    background-color: darkgray;
+    color: rgb(19, 18, 18);
+}
+
 /*navbar styles*/
 
 nav {
-    background-color: #40c4ff;
-    box-shadow: .1rem .05rem 0.5rem gray;
+    background-color: rgb(46, 46, 46);
+    position: sticky;
+    top: 0;
 }
 
 .navBar {
@@ -54,5 +72,36 @@ nav {
 
 .navBar li:hover,
 .logo:hover {
-    background-color: #0091ea;
+    background-color: rgb(19, 18, 18);
+}
+
+/* showCase styles */
+
+#showCase {
+    background: url("../img/showcase.jpg") no-repeat center center/cover;
+    color: white;
+    height: 100vh;
+}
+
+#showCase-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0, .7);
+
+}
+
+#showCase-content h2 {
+    font-size: 3rem;
+    padding: 1rem 0rem;
+    font-family: 'Fira Mono', monospace;
+}
+
+#showCase-content p {
+    font-size: 1.2rem;
+    padding: 1rem 0rem 2rem 0rem;
+    font-family: 'Roboto', sans-serif;
 }
