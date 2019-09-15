@@ -1,6 +1,6 @@
-# NeonTech
+# Simply code
 
-hello and welcome to our neonTech web site.
+hello and welcome to our simply code web site.
 
 ### key features of this website
 
