@@ -39,13 +39,14 @@
 
         <div id="showCase">
             <div id="showCase-content">
-
-                <h2>This is Where Innovation happens.</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, minus a laboriosam
-                    consequatur
-                    cumque
-                    recusandae.</p>
-                <a class="btn btn-light" href="#home">More</a>
+                <div class="container">
+                    <h2>This is Where Innovation happens.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, minus a laboriosam
+                        consequatur
+                        cumque
+                        recusandae.</p>
+                    <a class="btn btn-light" href="#home">More</a>
+                </div>
             </div>
         </div>
 
@@ -117,13 +118,19 @@
         </div>
     </section>
     <section id="Where">
-        <div>
-            <h2 class="headingText">Get in <span class="primaryText">Touch</span></h2>
+        <div id="Where-content">
+            <div>
+                <h2 class="headingText">Get in <span class="primaryText">Touch</span></h2>
+            </div>
+
+        </div>
+        <div id="map">
+
         </div>
 
     </section>
     <footer>
-        <p>Calling us : +91 868 868 7058</p>
+        <p>Call us : +91 868 868 7058</p>
         <p>Email us : some@email.com</p>
         <p>Write to us : Lorem ipsum dolor sit amet <br> consectetur adipisicing elit. Nesciunt, temporibus.</p>
         <ul>
@@ -134,5 +141,11 @@
         </ul>
     </footer>
 </body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="../js/main.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxF3rZvtU4Hmh9Tz4_X3Ri0Ubh9H837N4&callback=initMap" async
+    defer></script>
 
 </html>

@@ -9,9 +9,9 @@
     font-family: 'Roboto', sans-serif;
 }
 
-html {
+/* html {
     scroll-behavior: smooth;
-}
+} */
 
 /* utility classes  */
 .container {
@@ -20,6 +20,14 @@ html {
     margin: auto;
 
 }
+
+.container-narrow {
+
+    max-width: 70%;
+    margin: auto;
+
+}
+
 
 .btn {
     display: inline-block;
@@ -132,7 +140,6 @@ nav {
     text-align: center;
     justify-content: center;
     background-color: rgb(0, 0, 0, .7);
-    /* padding: 0rem 5rem; */
 
 }
 
@@ -189,7 +196,9 @@ nav {
 }
 
 .specialty i {
-    padding: 2rem 0;
+    padding: 1rem;
+    margin-bottom: 1rem;
+
 }
 
 .specialty h3 {
@@ -210,24 +219,40 @@ nav {
     width: 50%;
 }
 
+/* Where Styles */
+
 #Where {
-    background: url('../img/Where_img.jpg') no-repeat center center/cover;
-    height: 50vh;
+
+    height: 55vh;
     display: flex;
     color: white;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
-#Where div {
+#Where-content {
+    background: url('../img/Where_img.jpg') no-repeat center center/cover;
+    background-color: rgb(0, 0, 0, .7);
+    height: 100%;
+    width: 50%;
+
+}
+
+#Where-content div {
     background-color: rgb(0, 0, 0, .7);
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
+
+#map {
+    height: 100%;
+    flex: 1;
+}
+
+/* footer styles */
 
 footer {
     background-color: rgb(19, 18, 18);
